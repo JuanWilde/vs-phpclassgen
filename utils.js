@@ -48,6 +48,8 @@ module.exports = {
 
         return `<?php
 
+declare(strict_types=1);
+
 namespace ${namespace};
 
 ${prefix} ${cn}
